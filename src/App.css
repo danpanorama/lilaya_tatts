@@ -10,7 +10,25 @@
 .rowToCol{
     flex-direction: row;
 }
+.bgcolorf7{
+    background-color: #f7f7f7;
+}
+.colorfde{
+color: #fde4d4;
+}
+.bgcolorfde{
+    background-color: #fde4d4;
+    }
+    .bgcolor1d{
+        background-color: #1d1d1d;
+    }
+.bgcolor302{
+    background-color: #302a29;
+}
 
+.pinkColor{
+    color: #f8cbc5;
+}
 
 .container{
     width: 80%;
@@ -27,6 +45,7 @@
     margin: 0 auto;
 }
 .center{
+    align-items: center;
     justify-content: center;
 }
 .bet{

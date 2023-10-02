@@ -6,7 +6,7 @@ import NavLinks from './navcomp/NavLinks';
 
 function Nav() {
   return (
-    <div className="container marginAuto flex row bet navbar aCenter">
+    <div className="container  marginAuto flex row bet navbar aCenter">
    
   <div className="flex row aCenter h100">
       <Logo/>
