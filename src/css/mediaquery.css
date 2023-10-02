@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .container{
+    width: 90%;
+  }
+ 
+  }
+  @media screen and (max-width: 820px) {
+    .container{
+      width: 98%;
+    }
+    .displayNone{
+      display: none;
+    }
+    }
