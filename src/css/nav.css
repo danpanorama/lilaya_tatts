@@ -1,16 +1,25 @@
 .navLinks{
     font-size: 1.9rem;
-    margin-right: 30px;
     text-decoration: none;
     color: #262626;
     text-transform: uppercase;
     font-weight: 500;
 
 }
+.allLinks{
+    justify-content: space-between;
+}
 .navBarRoute{
 }
 .navbar{
-   
+    padding-top: 12px;
+
      height: 16vh;
     
+}
+.nav_position{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
 }

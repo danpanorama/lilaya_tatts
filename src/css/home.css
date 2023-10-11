@@ -1,0 +1,27 @@
+.borderShape{
+    border: 5px solid #c9c9c9;
+    height: 400px;
+    width: 400px;
+    background-image: url('../images/lulu.jpeg');
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+.height_home{
+    
+}
+.headerHome{
+    font-size: 4rem;
+}
+.homeHieght{
+    height: 100vh;
+    background-color: aquamarine;
+}
+.flexEnd{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.homeImage_text{
+    max-height: 500px;
+    max-width: 400px;
+}

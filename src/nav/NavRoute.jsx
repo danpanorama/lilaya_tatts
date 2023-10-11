@@ -7,7 +7,8 @@ function NavRoute() {
   const location =useLocation()
 
   return (
-    <div className="navBarRoute bgcolorf7">
+    <div className="navBarRoute ">
+      
       <Nav/>
 <Routes location={location} key={location.pathname} >
       <Route path="*" element={<HomeScreen />} exact />

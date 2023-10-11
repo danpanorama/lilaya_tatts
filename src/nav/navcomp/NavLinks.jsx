@@ -4,7 +4,7 @@ import '../../css/nav.css';
 
 function NavLinks() {
   return (
-    <div className="allLinks rowReverse flex center displayNone">
+    <div className="allLinks  flex col acenter bet displayNone">
         <NavLink className={'navLinks'} to={'/home'} >home</NavLink>
         <NavLink className={'navLinks'} to={'/about'}>about</NavLink>
         <NavLink className={'navLinks'}to={'/gallery'}>gallery</NavLink>

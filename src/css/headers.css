@@ -1,0 +1,16 @@
+.position_header{
+position: absolute;
+bottom: 20px;
+left: 10px;
+}
+.headerBig{
+    font-size: 20rem;
+    color: rgb(63, 63, 63);
+   
+}
+.headerBig{
+    margin: 0;
+    padding: 0;
+display: inline;
+line-height: 150px;
+}

@@ -34,6 +34,12 @@ color: #fde4d4;
     width: 80%;
     
 }
+.w50{
+    width: 50%;
+}
+.container_home{
+    width: 90%;
+}
 .rowReverse{
    flex-direction: row-reverse; 
 
@@ -44,12 +50,26 @@ color: #fde4d4;
 .marginAuto{
     margin: 0 auto;
 }
+.marginTop_40{
+    margin-top: 40PX;
+}
 .center{
     align-items: center;
     justify-content: center;
 }
+.margin_Top50{
+    margin-top: 50px;
+}
 .bet{
     justify-content: space-between;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.acenter{
+    align-items: center;
 }
 .aEnd{
     align-items: flex-end;
@@ -63,4 +83,7 @@ color: #fde4d4;
 }
 .w100{
     width: 100%;
+}
+.position_relative{
+    position: relative;
 }
