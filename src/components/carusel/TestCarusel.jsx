@@ -1,21 +1,25 @@
 import { Carousel } from 'react-carousel-minimal';
+import Image1 from '../../images/luluimage/lulu1.jpeg'
+import Image2 from '../../images/luluimage/lulu2.jpeg'
+import Image3 from '../../images/luluimage/lulu3.jpeg'
+import Image4 from '../../images/luluimage/lulu4.jpeg'
 function TestCarusel() {
     const data = [
        {
-         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-         caption: "San Francisco"
+         image: Image1,
+         caption: "lulu tattoo"
        },
        {
-         image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-         caption: "Scotland"
+         image: Image2,
+         caption: "lulu tattoo"
        },
        {
-         image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-         caption: "Darjeeling"
+         image: Image3,
+         caption: "lulu tattoo"
        },
        {
-         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-         caption: "San Francisco"
+         image: Image4,
+         caption: "lulu tattoo"
        },
        {
          image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
@@ -48,7 +52,7 @@ function TestCarusel() {
        fontWeight: 'bold',
      }
      return (
-       <div className="">
+       <div className="galleryMaxImage">
          <div style={{ textAlign: "center" }}>
            <div style={{
              padding: "0 20px"
@@ -56,8 +60,7 @@ function TestCarusel() {
              <Carousel
                data={data}
                time={2000}
-               width="650px"
-               height="400px"
+            className='caruselTest'
                captionStyle={captionStyle}
                radius="10px"
                slideNumber={true}

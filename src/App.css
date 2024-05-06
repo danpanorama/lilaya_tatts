@@ -10,6 +10,16 @@
 .rowToCol{
     flex-direction: row;
 }
+.acenter{
+    align-items: center;
+}
+.h100vh{
+    height: 100vh;
+    background-color: red;
+}
+.aend{
+    align-items: flex-end;
+}
 .bgcolorf7{
     background-color: #f7f7f7;
 }
@@ -31,14 +41,17 @@ color: #fde4d4;
 }
 
 .container{
-    width: 80%;
-    
+    width: 90%;
+
+}
+.bc{
+    background-color: aqua;
 }
 .w50{
     width: 50%;
 }
 .container_home{
-    width: 90%;
+    width: 75%;
 }
 .rowReverse{
    flex-direction: row-reverse; 
@@ -63,6 +76,9 @@ color: #fde4d4;
 .bet{
     justify-content: space-between;
 }
+.evenly{
+    justify-content: space-evenly;
+}
 .img{
     height: 100%;
     width: 100%;
@@ -81,9 +97,19 @@ color: #fde4d4;
 .h100{
     height: 100%;
 }
+/* .spaceSec{
+    height: 100px;
+} */
 .w100{
     width: 100%;
 }
+.hcolor{
+    color: rgb(63, 63, 63);
+}
 .position_relative{
     position: relative;
+}
+.video{
+    height: 100%;
+    width: 100%;
 }

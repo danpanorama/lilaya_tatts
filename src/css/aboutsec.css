@@ -1,0 +1,64 @@
+.aboutSec{
+    /* height: 100vh; */
+   
+}
+.sideA{
+width: 40%;
+}
+.sideB{
+   
+    width: 50%;
+
+}
+.videoLulu{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    object-fit: cover;
+    max-height: 100vh;
+}
+.smallHeader{
+    color: red;
+    font-size: 1.4rem;
+}
+.headerAboutSec{
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+.textLong{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.infoText{
+    font-size: 1.6rem;
+    color: red;
+}
+
+.logoDiv{
+    margin-top: 50px;
+}
+.buttonReadMore{
+
+}
+.buttonReadMore{
+    margin-top: 40px;
+}
+.btn{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #262626;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 3px;
+}
+.imageDiv{
+height: 300px;
+}
+.imgStudi{
+   background-position: top;
+object-fit: cover;
+background-size: cover;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}

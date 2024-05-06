@@ -4,22 +4,31 @@
     color: #262626;
     text-transform: uppercase;
     font-weight: 500;
+    transition: all .3s ease;
+
+}
+.navLinks:hover{
+    transform: scale(1.2);
+    transition: all .3s ease;
 
 }
 .allLinks{
     justify-content: space-between;
+  
 }
 .navBarRoute{
+
 }
 .navbar{
-    padding-top: 12px;
+    /* padding-top: 12px; */
 
      height: 16vh;
     
 }
 .nav_position{
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 9999999;
+  
 }

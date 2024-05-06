@@ -2,9 +2,19 @@
     max-height: 80px;
     max-width: 80px;
 }
+.bigHeaderLogo{
+   margin-bottom: -20px;
+   margin-left: -50px;
+   /* position: absolute; */
+}
 .slogen{
    align-self: flex-end;
    justify-items: flex-end;
+   /* margin-bottom: -20px;
+   margin-right: -50px; */
+   padding-bottom: 20px;
+   padding-right: 20px;
+ 
 }
 .p{
     font-size: 1.6rem;

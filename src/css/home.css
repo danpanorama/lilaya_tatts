@@ -10,12 +10,40 @@
 .height_home{
     
 }
+.h84{
+    height: 84vh; 
+}
+.VerticalText{
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+.sideText{
+    position: absolute;
+    right: -4%;
+    bottom: 0;
+    font-size: 1.6rem;
+}
+.div_image_front{
+    margin-top:40px;
+}
+.imageFront{
+    max-width: 40%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 .headerHome{
     font-size: 4rem;
 }
 .homeHieght{
-    height: 100vh;
-    background-color: aquamarine;
+    height: 74vh;
+  /* padding-left: 20px;
+  padding-right: 20px;
+    padding-bottom: 20px; */
+}
+.homeColor{
+    /* background-color: aquamarine; */
+    border: 1px solid red;
+    
 }
 .flexEnd{
     align-items: flex-end;

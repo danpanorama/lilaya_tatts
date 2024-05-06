@@ -1,25 +1,26 @@
 import '../App.css';
-import BorderImage from '../components/home/BorderImage';
 import GalleryHome from '../components/galleryhome/GalleryHome';
-import HomeHeader from '../components/home/HomeHeader';
-import BigHeader from '../components/headers/BigHeader';
-import Slogen from '../components/logo/Slogen';
+import AboutSec from '../components/home/AboutSec';
+import GallerySec from '../components/home/GallerySec';
+
+import Opening from '../components/home/Opening';
+import TransitionAnimation from '../components/transition/TransitionAnimation';
 
 
 function HomeScreen() {
   return (
-    <div className=" flex col end position_relative  ">
-      <div className="container_home flex row  marginAuto homeHieght flexEnd ">
-        
+    <TransitionAnimation>
 
-      <HomeHeader/>
-      <BigHeader class={''} header={`AYA`} header2={'TATTOOS'} />
+   
+    <div className="container_home marginAuto ">
+   <Opening/>
+   <div className="spaceSec">
 
-      
-<Slogen/>
-      </div>
-
+   </div>
+   <AboutSec/>
+   <GallerySec/>
     </div>
+     </TransitionAnimation>
   );
 }
 

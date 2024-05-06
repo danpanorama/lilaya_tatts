@@ -6,10 +6,12 @@ import ArtText from '../../images/Arttext_black.png';
 
 function HomeHeader() {
   return (
-    <div className="flex col center">
+    <div className=" ">
       {/* <div className="imagediv homeImage_text">
         <img src={ArtText} className='img' alt="" />
       </div> */}
+
+      
 
     </div>
   );
