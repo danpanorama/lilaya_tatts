@@ -72,6 +72,10 @@ font-size: 4rem !important;
     .caruselTest{
       min-height: 300px !important;
     }
+    .h84{
+      height: auto !important;
+      margin-bottom: 80px !important;
+    }
     .infoText{
 font-size: 1rem !important;
     }
