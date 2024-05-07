@@ -15,7 +15,7 @@
 }
 .h100vh{
     height: 100vh;
-    background-color: red;
+    
 }
 .aend{
     align-items: flex-end;
@@ -112,4 +112,29 @@ color: #fde4d4;
 .video{
     height: 100%;
     width: 100%;
+}
+.bwImage{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.cr{
+    color: red;
+}
+.marginBottomPage{
+    margin-bottom: 50px;
+}
+.cg{
+    color: rgb(63, 63, 63);
+}
+.marginLeft50{
+    margin-left: 50px;
+}
+.headersOpening{
+    height: 100%;
+    align-items: flex-end;
+}
+.linkAll{
+    color: white;
+    font-size: 1.6rem ;
+    text-decoration: none;
 }

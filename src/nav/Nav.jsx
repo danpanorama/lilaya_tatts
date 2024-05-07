@@ -11,7 +11,7 @@ function Nav() {
    
    <div className="flex row aCenter h100">
        <Logo/>
-     <SocialLinks/>
+     <SocialLinks class={'marginLeft50'}/>
    
    </div>
          <NavLinks/>

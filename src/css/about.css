@@ -1,0 +1,27 @@
+.imageDiv_about{
+    width: 20%;
+  border-bottom: 1px solid red ;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  border-left: 1px solid red;
+
+}
+.textPositionAbout{
+    position: absolute;
+    right: -8%;
+    bottom: 2%;
+}
+.aboutTextHeader{
+    font-size: 1.6rem;
+}
+.aboutHeaderPage{
+    font-size: 15rem;
+
+}
+.aboutTextHeader{
+    font-size: 2rem;
+}
+.About_Image_Page_studio{
+    margin-top: 50px;
+    width: 70%;
+}

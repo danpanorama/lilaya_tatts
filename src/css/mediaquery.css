@@ -2,10 +2,7 @@
   .container{
     width: 90%;
   }
-  .headerBig{
-font-size: 10rem !important;
-line-height: normal !important;
-  }
+
   .galleryImages{
     max-width: 100% !important;
   }
@@ -21,11 +18,55 @@ line-height: normal !important;
 
   }
   }
+  @media screen and (max-width: 1584px) {
+    .headerBig{
+      font-size: 10rem !important;
+      line-height: 80px !important;
+        }
+
+  }
   @media screen and (max-width: 820px) {
     .container{
       width: 98%;
     }
     .displayNone{
       display: none;
+    }
+    .locationHeader{
+      padding: 20px;
+font-size: 4rem !important;
+    }
+    .paddingTopBottom{
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+    }
+    .headerBig{
+      font-size: 5rem !important;
+     
+    }
+    .imageDiv_about{
+      width: 100% !important;
+    }
+    .w50{
+      width: 100% !important;
+    }
+    .aboutHeaderPage{
+      font-size: 5rem !important;
+    }
+    .imageFront{
+      max-width: 80% !important;
+    }
+    .bigHeaderLogo{
+      margin-left: -20px !important;
+      margin-bottom: 0 !important;
+    }
+    .headersOpening{
+      height: auto !important;
+      align-items: flex-start !important;
+      
+    }
+    .iframeMap{
+      width: 100% !important;
     }
     }

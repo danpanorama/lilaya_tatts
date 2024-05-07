@@ -5,6 +5,7 @@ import LuLuVideo from '../../images/luluimage/videos/luluvideo.mp4'
 import BigHeader from '../headers/BigHeader';
 import Logo from '../logo/Logo';
 import Studio from '../../images/luluimage/studiolulu.jpeg'
+import { NavLink } from 'react-router-dom';
 
 function AboutSec() {
   return (
@@ -23,7 +24,9 @@ function AboutSec() {
 
             </p>
             <div className="buttonReadMore">
-                <button className='btn readMore'>Read More</button>
+                <button className='btn readMore'>
+                  <NavLink className={'linkAll'} to={'/about'}>
+                  Read More</NavLink></button>
             </div>
            <div className="flex  center logoDiv">
            {/* <Logo/> */}
@@ -31,7 +34,7 @@ function AboutSec() {
            <div className="imageDiv">
             <img src={Studio} alt="" className="img imgStudi" />
            </div>
-           <div className="Info flex row acenter evenly">
+           <div className="Info flex row acenter evenly paddingTopBottom">
             <p className="phone infoText">+972-534273529</p>
             <p className="instegram infoText">instagram</p>
             <p className="tiktok infoText">TikTok</p>

@@ -1,0 +1,61 @@
+.footer{
+  
+    margin-top: 50px;
+}
+.upperFooter{
+   padding-top: 50px;
+   padding-bottom: 50px;
+    background-color: #262626;
+}
+.lowerFooter{
+    min-height: 20vh;
+    
+}
+.sideTextFooter{
+    position: absolute;
+    right: -5%;
+   bottom: 10%;
+   font-size: 1.5rem;
+}
+.textFooterPosition{
+    position: absolute;
+    top:20%;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+.locationHeader{
+    font-size: 5rem;
+    color: whitesmoke;
+font-weight: 100;
+text-align: right;
+    
+}
+.formHeader{
+    color: red;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.input{
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid red;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+
+.form{
+ 
+}
+.headerDivsFooter{
+  
+}
+.iframeMap{
+    border: none;
+    min-height: 200px;
+    border-radius: 20px;
+}

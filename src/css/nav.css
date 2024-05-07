@@ -5,7 +5,7 @@
     text-transform: uppercase;
     font-weight: 500;
     transition: all .3s ease;
-
+padding: 3px;
 }
 .navLinks:hover{
     transform: scale(1.2);

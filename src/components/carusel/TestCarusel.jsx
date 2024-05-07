@@ -3,6 +3,15 @@ import Image1 from '../../images/luluimage/lulu1.jpeg'
 import Image2 from '../../images/luluimage/lulu2.jpeg'
 import Image3 from '../../images/luluimage/lulu3.jpeg'
 import Image4 from '../../images/luluimage/lulu4.jpeg'
+import Image5 from '../../images/luluimage/tatts/tatt1.jpeg'
+import Image6 from '../../images/luluimage/tatts/tatt2.jpeg'
+import Image7 from '../../images/luluimage/tatts/tatt3.jpeg'
+import Image8 from '../../images/luluimage/tatts/tatt4.jpeg'
+import Image9 from '../../images/luluimage/tatts/tatt5.jpeg'
+import Image10 from '../../images/luluimage/tatts/tatt6.jpeg'
+import Image11 from '../../images/luluimage/tatts/tatt7.jpeg'
+import Image12 from '../../images/luluimage/tatts/tatt8.jpeg'
+
 function TestCarusel() {
     const data = [
        {
@@ -22,23 +31,23 @@ function TestCarusel() {
          caption: "lulu tattoo"
        },
        {
-         image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
+         image: Image5,
          caption: "Scotland"
        },
        {
-         image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+         image: Image6,
          caption: "Darjeeling"
        },
        {
-         image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
+         image:Image7,
          caption: "San Francisco"
        },
        {
-         image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
+         image: Image8,
          caption: "Scotland"
        },
        {
-         image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
+         image: Image9,
          caption: "Darjeeling"
        }
      ];
@@ -61,6 +70,7 @@ function TestCarusel() {
                data={data}
                time={2000}
             className='caruselTest'
+               width='100%'
                captionStyle={captionStyle}
                radius="10px"
                slideNumber={true}

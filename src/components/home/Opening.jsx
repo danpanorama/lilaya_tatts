@@ -23,7 +23,7 @@ function Opening() {
           <p className="VerticalText sideText">LuLu Tattos</p>
         </div>
         </div>
-    <div className="flex  rowToCol bet aend w100 h100">
+    <div className="flex  rowToCol bet aend w100 headersOpening">
     <BigHeader class={'bigHeaderLogo'} header={`AYA`} header2={'TATTOOS'} />
   
         
