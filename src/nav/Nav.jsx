@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../App.css';
 import SocialLinks from '../components/buttons/SocialLinks';
 import Logo from '../components/logo/Logo';
@@ -10,8 +11,8 @@ function Nav() {
       <div className="container   marginAuto flex row bet navbar aCenter">
    
    <div className="flex row aCenter h100">
-       <Logo/>
-     <SocialLinks/>
+      <Logo/>
+     <SocialLinks class={'marginLeft50'}/>
    
    </div>
          <NavLinks/>

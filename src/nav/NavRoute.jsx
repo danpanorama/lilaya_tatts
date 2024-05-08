@@ -3,6 +3,7 @@ import Nav from './Nav';
 import { Routes, useLocation, Route, Router } from "react-router-dom";
 import {AnimatePresence} from 'framer-motion';
 import AboutScreen from '../pages/AboutScreen';
+import GalleryScreen from '../pages/GalleryScreen';
 
 
 function NavRoute() {
@@ -19,6 +20,7 @@ function NavRoute() {
       <Route path="/" element={<HomeScreen />} exact />
  
       <Route path="/about" element={<AboutScreen />} exact />
+      <Route path="/gallery" element={<GalleryScreen />} exact />
 
 
         {/* <Routes path="/404" element={<Nofuondpage/>} exact/> */}
