@@ -26,3 +26,10 @@
     margin-top: 50px;
     width: 70%;
 }
+.image_div_about{
+    max-height: 400px;
+   
+}
+.aboutHeader{
+    font-size: 5rem;
+}

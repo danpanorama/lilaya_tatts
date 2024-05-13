@@ -12,7 +12,7 @@ function AboutText() {
         transition={{ duration: 0.9, ease: "easeInOut", delay: 1.5 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        exit={{ opacity: 0 ,transition: { ease: 'easeIn', duration: 0.9 }}}
         className="aboutHeaderPage cg"
       >
         LIL AYA TATTOO
@@ -21,19 +21,19 @@ function AboutText() {
         transition={{ duration: 0.9, ease: "easeInOut", delay: 1.8 }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        exit={{ opacity: 0 ,transition: { ease: 'easeIn', duration: 0.9 }}}
         className="aboutTextHeader cr"
       >
         TEL AVIV
       </motion.p>
 
       <div className="flex rowToCol bet">
-        <div className="flex col  w50">
+        <div className="flex col bet  w50">
           <motion.p
             transition={{ duration: 0.9, ease: "easeInOut", delay: 2 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 0 ,transition: { ease: 'easeIn', duration: 0.9 }}}
             className="textLong "
           >
             lil aya tattoos its a art gallery in tel aviv from 1997 until now,
@@ -47,7 +47,7 @@ function AboutText() {
             transition={{ duration: 0.9, ease: "easeInOut", delay: 2.3 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 0 ,transition: { ease: 'easeIn', duration: 0.9 }}}
             className="About_Image_Page_studio bwImage w50 "
           >
             <img src={Image3} alt="" className="img " />
@@ -57,7 +57,7 @@ function AboutText() {
           transition={{ duration: 0.9, ease: "easeInOut", delay: 2.3 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          exit={{ opacity: 0 ,transition: { ease: 'easeIn', duration: 0.9 }}}
           className="About_Image_Page w50"
         >
           <img src={Image2} alt="" className="img " />

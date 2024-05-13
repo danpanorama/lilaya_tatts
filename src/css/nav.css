@@ -10,7 +10,11 @@ padding: 3px;
 .navLinks:hover{
     transform: scale(1.2);
     transition: all .3s ease;
+  
 
+}
+.active{
+    color: white;
 }
 .allLinks{
     justify-content: space-between;

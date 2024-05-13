@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import '../App.css';
 import GalleryHome from '../components/galleryhome/GalleryHome';
 import AboutSec from '../components/home/AboutSec';
@@ -8,6 +9,9 @@ import TransitionAnimation from '../components/transition/TransitionAnimation';
 
 
 function HomeScreen() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <TransitionAnimation>
 
