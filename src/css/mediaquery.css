@@ -32,6 +32,9 @@
     .displayNone{
       display: none;
     }
+    .w100phone{
+      width: 95% !important;
+    }
     .locationHeader{
       padding: 20px;
 font-size: 4rem !important;

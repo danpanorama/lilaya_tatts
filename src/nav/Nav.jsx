@@ -11,14 +11,15 @@ function Nav() {
   <div className="bgcolorf7 nav_position">
       <div className="container    marginAuto flex row bet navbar aCenter">
    
-   <div className="flex row aCenter bet w100 h100">
+   <div className="flex row aCenter w100phone bet h100">
       <Logo/>
      <SocialLinks class={'marginLeft50Nav'}/>
-    <NavPhone/>
    
+    <NavPhone/> 
+ 
    </div> 
-   
-         <NavLinks/>
+      <NavLinks/>
+        
      
      </div>
   </div>

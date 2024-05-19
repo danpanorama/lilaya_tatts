@@ -57,3 +57,18 @@ padding: 3px;
     visibility: hidden;
     display: none;
 }
+
+.openNav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #262626;
+    z-index: 9999999999;
+}
+.navLinksPhone{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-bottom: 30px;
+}

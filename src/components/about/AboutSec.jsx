@@ -1,6 +1,7 @@
 import '../../App.css';
 import '../../css/btn.css';
 import Skatch from '../../images/luluimage/tatts/skitsa1.jpeg'
+import Skatch2 from '../../images/luluimage/tatts/newbool.png'
 
 function AboutSec(props) {
   return (
@@ -20,7 +21,7 @@ function AboutSec(props) {
             </button>
         </div>
         <div className="sketch image_div_about ">
-            <img src={Skatch} alt="" className="img " />
+            <img src={Skatch2} alt="" className="img " />
 
         </div>
     

@@ -48,7 +48,7 @@ function AboutSec() {
 
         <div className="sideB ">
 
-        <video className='videoLulu'  type="video/mp4" autoPlay muted loop >
+        <video className='videoLulu'  type="video/mp4" autoPlay muted loop webkit-playsinline >
         <source className='video' src={LuLuVideo} type="video/mp4" />
       </video>
         </div>
