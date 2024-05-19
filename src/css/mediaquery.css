@@ -32,6 +32,9 @@
     .displayNone{
       display: none;
     }
+    .grid{
+      gap: 20px !important;
+    }
     .w100phone{
       width: 95% !important;
     }

@@ -6,8 +6,13 @@ import BigHeader from '../headers/BigHeader';
 import Logo from '../logo/Logo';
 import Studio from '../../images/luluimage/studiolulu.jpeg'
 import { NavLink } from 'react-router-dom';
+import React, {useRef, useEffect} from "react"
 
 function AboutSec() {
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+      videoRef.current.defaultMuted = true;
+  },[])
   return (
     <div className="aboutSec flex rowToCol bet ">
         <div className="sideA">
@@ -48,7 +53,7 @@ function AboutSec() {
 
         <div className="sideB ">
 
-        <video className='videoLulu'  type="video/mp4" autoPlay muted loop webkit-playsinline >
+        <video ref={videoRef} className='videoLulu'  type="video/mp4" autoPlay muted loop webkit-playsinline >
         <source className='video' src={LuLuVideo} type="video/mp4" />
       </video>
         </div>
