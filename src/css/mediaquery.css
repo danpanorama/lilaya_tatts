@@ -27,7 +27,7 @@
   }
   @media screen and (max-width: 820px) {
     .container{
-      width: 98%;
+      width: 95%;
     }
     .displayNone{
       display: none;
@@ -68,6 +68,12 @@ font-size: 4rem !important;
       height: auto !important;
       align-items: flex-start !important;
       margin-top: 20px !important;
+    }
+    .displayOnPhone{
+      display: block !important;
+    }
+    .marginLeft50Nav{
+      margin-left: 0 !important;
     }
     .caruselTest{
       min-height: 300px !important;
