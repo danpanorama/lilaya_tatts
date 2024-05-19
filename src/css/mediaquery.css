@@ -34,6 +34,7 @@
     }
     .grid{
       gap: 20px !important;
+      grid-template-columns: 1fr !important;
     }
     .w100phone{
       width: 95% !important;

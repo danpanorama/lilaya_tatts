@@ -63,9 +63,9 @@ function TestCarusel() {
      return (
        <div className="galleryMaxImage">
          <div style={{ textAlign: "center" }}>
-           <div style={{
-             padding: "0 20px"
-           }}>
+           <div 
+          
+             >
              <Carousel
                data={data}
                time={2000}

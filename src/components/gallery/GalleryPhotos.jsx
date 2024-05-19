@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 
 
 function GalleryPhotos() {
-const images = [Image,Image1,Image2,Image3,Image4,Image5,Image6,Image7,Image8,Image9,Image10,Image11,Image12,Image13,Image14,Image15]
+const images = [Image1,Image2,Image3,Image4,Image5,Image6,Image7,Image8,Image9,Image10,Image,Image11,Image12,Image13,Image14,Image15]
    
   return (
 
