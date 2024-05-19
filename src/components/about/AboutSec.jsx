@@ -5,7 +5,7 @@ import Skatch2 from '../../images/luluimage/tatts/newbool.png'
 
 function AboutSec(props) {
   return (
-    <div className='flex rowToCol    margin_Top100'>
+    <div className='flex rowToCol   margin_Top100'>
         <div className="worksSkitsa ">
             <h1 className='aboutHeader cg'>LIL AYA TATTOO</h1>
             <p className="cr smallText aboutTextHeader">
@@ -26,7 +26,7 @@ function AboutSec(props) {
         </div>
     
     </div>
-  );
+  ); 
 }
 
 export default AboutSec;

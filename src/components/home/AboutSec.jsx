@@ -53,7 +53,7 @@ function AboutSec() {
 
         <div className="sideB ">
 
-        <video ref={videoRef} className='videoLulu'  type="video/mp4" autoPlay muted loop webkit-playsinline playsinline >
+        <video ref={videoRef} className='videoLulu'  type="video/mp4"  autoPlay muted loop webkit-playsInline playsInline >
         <source className='video' src={LuLuVideo} type="video/mp4" />
       </video>
         </div>
